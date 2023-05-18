@@ -7,18 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Sbidu - Bid And Auction HTML Template</title>
-    <link rel="stylesheet" href="{{asset('background/assets/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('background/assets/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('background/assets/css/all.min.css')}}">
-    <link rel="stylesheet" href="{{asset('background/assets/css/animate.css')}}">
-    <link rel="stylesheet" href="{{asset('background/assets/css/nice-select.css')}}">
-    <link rel="stylesheet" href="{{asset('background/assets/css/owl.min.css')}}">
-    <link rel="stylesheet" href="{{asset('background/assets/css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{asset('background/assets/css/flaticon.css')}}">
-    <link rel="stylesheet" href="{{asset('background/assets/css/jquery-ui.min.css')}}">
-    <link rel="stylesheet" href="{{asset('background/assets/css/main.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/assets/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/assets/css/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/assets/css/nice-select.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/assets/css/owl.min.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/assets/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/assets/css/flaticon.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/assets/css/jquery-ui.min.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/assets/css/main.css')}}">
 
-    <link rel="shortcut icon" href="{{asset('background/assets/images/favicon.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('backend/assets/images/favicon.png')}}" type="image/x-icon">
 </head>
 
 <body>
@@ -1118,20 +1118,20 @@
             <div class="copyright-area">
                 <div class="footer-bottom-wrapper">
                     <div class="logo">
-                        <a href="index.html"><img src="./assets/images/logo/footer-logo.png" alt="logo"></a>
+                        <a href="index.html"><img src="{{asset('backend/assets/images/logo/footer-logo.png')}}" alt="logo"></a>
                     </div>
                     <ul class="gateway-area">
                         <li>
-                            <a href="#0"><img src="./assets/images/footer/paypal.png" alt="footer"></a>
+                            <a href="#0"><img src="{{asset('backend/assets/images/footer/paypal.png')}}" alt="footer"></a>
                         </li>
                         <li>
-                            <a href="#0"><img src="./assets/images/footer/visa.png" alt="footer"></a>
+                            <a href="#0"><img src="{{asset('backend/assets/images/footer/visa.png')}}" alt="footer"></a>
                         </li>
                         <li>
-                            <a href="#0"><img src="./assets/images/footer/discover.png" alt="footer"></a>
+                            <a href="#0"><img src="{{asset('backend/assets/images/footer/discover.png')}}" alt="footer"></a>
                         </li>
                         <li>
-                            <a href="#0"><img src="./assets/images/footer/mastercard.png" alt="footer"></a>
+                            <a href="#0"><img src="{{asset('backend/assets/images/footer/mastercard.png')}}" alt="footer"></a>
                         </li>
                     </ul>
                     <div class="copyright"><p> <a href="#0">&copy; Copyright 2023 </a> By <a href="#0">Uiaxis</a></p></div>
@@ -1144,20 +1144,22 @@
 
 
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./assets/js/jquery-3.3.1.min.js"></script>
-<script src="./assets/js/modernizr-3.6.0.min.js"></script>
-<script src="./assets/js/plugins.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
-<script src="./assets/js/isotope.pkgd.min.js"></script>
-<script src="./assets/js/wow.min.js"></script>
-<script src="./assets/js/waypoints.js"></script>
-<script src="./assets/js/nice-select.js"></script>
-<script src="./assets/js/counterup.min.js"></script>
-<script src="./assets/js/owl.min.js"></script>
-<script src="./assets/js/magnific-popup.min.js"></script>
-<script src="assets/js/yscountdown.min.js"></script>
-<script src="assets/js/jquery-ui.min.js"></script>
-<script src="./assets/js/main.js"></script>
+{{--<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./assets/js/jquery-3.3.1.min.js"></script>--}}
+<script src="{{asset('backend/assets/js/modernizr-3.6.0.min.js')}}"></script>
+<script src="{{asset('backend/assets/js/plugins.js')}}"></script>
+<script src="{{asset('backend/assets/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('backend/assets/js/isotope.pkgd.min.js')}}"></script>
+<script src="{{asset('backend/assets/js/wow.min.js')}}"></script>
+<script src="{{asset('backend/assets/js/waypoints.js')}}"></script>
+<script src="{{asset('backend/assets/js/nice-select.js')}}"></script>
+<script src="{{asset('backend/assets/js/counterup.min.js')}}"></script>
+<script src="{{asset('backend/assets/js/owl.min.js')}}"></script>
+<script src="{{asset('backend/assets/js/magnific-popup.min.js')}}"></script>
+<script src="{{asset('backend/assets/js/yscountdown.min.js')}}"></script>
+<script src="{{asset('backend/assets/js/jquery-ui.min.js')}}"></script>
+<script src="{{asset('backend/')}}"></script>
+<script src="{{asset('backend/assets/js/main.js')}}"></script>
+
 </body>
 
 </html>
